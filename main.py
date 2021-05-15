@@ -30,7 +30,7 @@ def start():
 	clear()
 	global extension
 	extension = ""
-	extension = input("Image Extension: ")
+	extension = input("Image Extension (ex. .png): ")
 	if extension == "":
 		print("The value you entered was null. Please try again.")
 		pause()
